@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fafafa;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#logo{
+    max-width: 100%;
+    padding: 5px;
+}
+
+#page-content, section, main{
+    width: 100%;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.central-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100vh;
+}
+
+.element-one{
+    display: flex;
+    align-items: center;
+    justify-content: start;    
+    width: 60%;
+}
+
+.element-one img{
+    height: 40rem;
+}
+
+.element-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+    flex-direction: column; 
+    width: 50%; 
+    max-height: 34rem;
+}
+
+.caixa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    flex-direction: column; 
+    width: 100%;
+    background-color: #fff;
+    padding: 1.9rem 0;
+    border: 1px solid #dbdbdb;
+    margin: 5px 0;
+}
+.bloco-one{
+    width: 100%;
+    padding: 1.5rem 3rem;
+}
+
+.bloco-two{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.lin{
+    display: flex;
+    align-items: stretch;
+    height: 1px;
+    width: 5rem;
+    background-color: #dbdbdb;
+}
+
+.lin2{
+    display: flex;
+    align-items: stretch;
+    margin: 0 18px;
+    color: #8e8e8e;
+}
+
+
+.bloco-three{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bloco-three button{
+    background: none;
+    border: none;
+    padding: 10px;
+}
+
+.logo-face{
+    background-image: url(./images/icons.png);
+    background-repeat: no-repeat;
+    background-position: -414px -259px;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    margin-right: 8px;
+}
+.nome-face{
+    display: inline-block;
+    color: #385185;
+}
+
+.input-caixa{
+
+    background: #fafafa;
+    background: rgba(var(--b3f,250,250,250),1);
+    border: 1px solid #dbdbdb;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    margin: 4px 0;
+    outline: 0;
+    overflow: hidden;
+    padding: 9px 0 7px 8px;
+    text-overflow: ellipsis;
+    width: 100%;
+
+}
+
+.btn-entrar{
+    background-color: #2ea8f4;
+    border: 0;
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    color: #fff;
+
+}
+
+.caixa-aplicativo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column; 
+}
+
+.caixa-aplicativo p{ 
+    color: #262626;
+    margin: 15px 0;
+}
+
+.link-reset{
+    font-size: 12px;
+    padding: 10px 0;
+    color: #385185 !important;
+}
+
+.caixa a{
+    color: #0095f6;
+}
+.caixa span{
+    color: #262626;
+}
+.apps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.apps a img{
+    width: 25vh;
+    padding: 5px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    padding: 15px;
+}
+
+.central-footer{
+    margin-bottom: 52px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+    width: 78%;
+
+}
+.topo-footer{
+    padding-bottom: 20px;
+    width: 100%;
+
+}
+.bottom-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;    width: 100%;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+ul li{
+    list-style: none;
+    margin-right: 12px;
+    line-height: 20px;
+}
+
+li a,.bottom-footer, .bottom-footer a{
+    color: #8e8e8e;
+    font-size: 12px;
+}
