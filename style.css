@@ -73,6 +73,12 @@ body{
     border: 1px solid #dbdbdb;
     margin: 5px 0;
 }
+
+.caixa img{
+    padding-top: 10px;
+}
+
+
 .bloco-one{
     width: 100%;
     padding: 1.5rem 3rem;
@@ -248,4 +254,35 @@ ul li{
 li a,.bottom-footer, .bottom-footer a{
     color: #8e8e8e;
     font-size: 12px;
+}
+
+@media (max-width: 1024px) {
+    .central-page{
+        width: 90%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .central-page{
+        width: 90%;
+    }
+    .element-one{
+        display: none;
+    }
+    .element-two{
+        width: 90%;
+    }
+    .apps a img {
+        width: 20vh;
+    }
+    .caixa{
+        background-color: transparent;
+        border: none;
+    }
+    .bloco-one {
+        padding: 1.5rem 2rem;
+    }
+
+    
 }
